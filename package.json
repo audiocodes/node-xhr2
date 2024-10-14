@@ -26,19 +26,19 @@
     "url": "https://github.com/pwnall/node-xhr2/issues"
   },
   "engines": {
-    "node": ">= 6"
+    "node": ">=20"
   },
   "devDependencies": {
-    "async": "^3.0.1",
-    "chai": "^4.2.0",
-    "coffeescript": "^2.4.1",
-    "express": "^4.17.1",
-    "glob": "^7.1.4",
-    "mocha": "^6.1.4",
-    "open": "^6.3.0",
+    "async": "^3.2.6",
+    "chai": "^4.5.0",
+    "coffeescript": "^2.7.0",
+    "express": "^4.21.1",
+    "glob": "^11.0.0",
+    "mocha": "^10.7.3",
+    "open": "^8.4.2",
     "remove": "^0.1.5",
-    "sinon": "^7.3.2",
-    "sinon-chai": "^3.3.0"
+    "sinon": "^19.0.2",
+    "sinon-chai": "^3.7.0"
   },
   "main": "lib/xhr2.js",
   "browser": "lib/browser.js",

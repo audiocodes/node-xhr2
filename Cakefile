@@ -58,7 +58,7 @@ build = (callback) ->
   # Tests are supposed to be independent, so the build order doesn't matter.
   test_dirs = glob.sync 'test/src/**/'
   for test_dir in test_dirs
-    out_dir = test_dir.replace(/^test\/src\//, 'test/js/')
+    out_dir = test_dir.replace(/^test\/src/, 'test/js')
     test_files = glob.sync path.join(test_dir, '*.coffee')
     commands.push "node_modules/.bin/coffee --output #{out_dir} " +
                   "--compile #{test_files.join(' ')}"
