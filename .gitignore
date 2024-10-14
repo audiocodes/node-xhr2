@@ -12,7 +12,8 @@ test/vendor
 
 # Build output.
 lib/xhr2.js
-test/js
+test/js/
+test/src/*.js
 tmp/*.js
 
 # Documentation output.
