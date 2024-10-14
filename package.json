@@ -1,5 +1,5 @@
 {
-  "name": "xhr2",
+  "name": "@audc/xhr2",
   "version": "0.2.1",
   "description": "XMLHttpRequest emulation for node.js",
   "keywords": [
@@ -42,6 +42,7 @@
   },
   "main": "lib/xhr2.js",
   "browser": "lib/browser.js",
+  "types": "index.d.ts",
   "directories": {
     "doc": "doc",
     "lib": "lib",
