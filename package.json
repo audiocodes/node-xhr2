@@ -1,6 +1,6 @@
 {
   "name": "@audc/xhr2",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "XMLHttpRequest emulation for node.js",
   "keywords": [
     "xhr",
